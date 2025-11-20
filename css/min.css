@@ -32,7 +32,7 @@
 [popover] {
   opacity: 0;
   scale: 0.95;
-  transition: opacity 0.35s ease, scale 0.35s ease;
+  transition: opacity 0.35s ease, scale 0.34s ease;
 }
 
 :popover-open {
