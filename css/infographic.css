@@ -40,3 +40,81 @@
 .info-box:nth-of-type(2n) {
   background-color: var(--color-infobox-2-bg);
 }
+
+.hide {
+  visibility: hidden;
+}
+.fadeIn {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeOut {
+  animation: fadeOut 1s linear;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.radioListe {
+  margin-bottom: 10%;
+}
+
+.range {
+  width: 70%;
+  accent-color: #ff7a48;
+  margin-bottom: 25%;
+}
+
+.form-group {
+  width: 50%;
+  height: 60px;
+}
+
+textarea {
+  resize: vertical;
+  width: 400px;
+}
+
+.form-felt {
+  display: flex;
+  gap: 2rem;
+  margin: 2%;
+  padding: 5%;
+}
+
+.placeholder {
+  margin-bottom: 10%;
+}
+
+fieldset {
+  margin: 10%;
+  background-color: #e3371e;
+  color: antiquewhite;
+  padding: 2%;
+  border-color: #e3371e;
+}
+
+option {
+  width: 100px;
+}
+
+.webform-5 {
+  background-color: #ffb357;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}

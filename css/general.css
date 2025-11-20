@@ -4,18 +4,66 @@ html {
   background-color: var(--color-bg);
 }
 
+html.dark {
+  /* Colours */
+  --color-bg: #171e28; /* page background /*
+
+  /* Header */
+  --color-head-bg: #e3371e;
+
+  /* Logotype */
+  --color-logotype-bg: #590202;
+  --color-text-logotype: #c1bfb8;
+
+  /* Global menu */
+  --color-menu-bg: #e3371e;
+
+  /* Links */
+  --color-link-bg: #e3371e;
+  --color-link-hover: #fffca6; /* used */
+  --color-link-active: #99958f; /* used */
+
+  /* Headlines og rubrik */
+
+  --font-h3-size: 1rem;
+  --color-headline-bg: #e3371e;
+  --color-headline-text-page: #42413d;
+
+  /* Tekst */
+  --color-text-inverted: #000;
+  --color-text: #cdccc4;
+
+  /* Cards */
+  --color-card-bg: #590202;
+  --color-cta-card-bg: #e3371e;
+  /* news-cards */
+  --color-news-bg: #590202;
+  --color-news-bg-inverted: #e3371e;
+  --color-cta-newscard-bg: #e3371e;
+  --color-cta-newscard-bg-inverted: #590202;
+
+  /* Infographics */
+  --color-info-bg: #590202;
+  --color-infobox-1-bg: #e3371e;
+  --color-infobox-2-bg: #e3371e;
+
+  .menuItem {
+    background-color: #590202;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
 header {
   height: min-content;
 }
 
 #main-disclamer {
-  height: 225px;
+  height: 150px;
   background-color: var(--color-head-bg);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-left: 2rem;
-  padding-bottom: 2%;
   margin-bottom: var(--margin-head-bottom);
 }
 
@@ -30,6 +78,7 @@ main section {
 }
 
 h1 {
+  font-family: Rubik, sans-serif;
   font-size: var(--font-h1-size);
   font-weight: var(--font-weight-bold);
   color: var(--color-text-inverted);
@@ -67,12 +116,12 @@ h3 {
   font-size: var(--headline3-size);
 }
 
-main>h1 {
+main > h1 {
   width: calc(80% - 6rem);
 }
 
 /* NAVIGATION STRUCTURES */
-header>nav {
+header > nav {
   height: 100%;
   background-color: var(--color-menu-bg);
 }
@@ -96,10 +145,10 @@ nav a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 3.6rem;
+  height: 5rem;
 }
 
-#logotype-wrapper>a {
+#logotype-wrapper > a {
   color: var(--color-text-logotype);
   font-size: var(--font-logotype-size);
   font-weight: var(--font-weight-medium);
@@ -118,7 +167,7 @@ header nav li a {
 }
 
 /* Pilen efter menu-tekst */
-header>nav li>a:after {
+header > nav li > a:after {
   content: " \2192";
 }
 

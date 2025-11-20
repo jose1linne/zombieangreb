@@ -1,0 +1,96 @@
+.vaersteDateEver {
+  font-size: 40px;
+}
+
+.sub {
+  font-family: Rubik, sans-serif;
+  font-size: 30px;
+}
+
+.menuItem {
+  background-color: #ffb357;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.hjerte {
+  size: 10%;
+}
+
+::backdrop {
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+}
+
+.popup {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8);
+  border-color: #e3371e;
+  border-radius: 7px 7px 7px 7px;
+  transition: ease 3s all;
+  padding: 2%;
+  width: 600px;
+}
+[popover] {
+  opacity: 0;
+  scale: 0.95;
+  transition: opacity 0.35s ease, scale 0.34s ease;
+}
+
+:popover-open {
+  opacity: 1;
+  scale: 1;
+
+  @starting-style {
+    opacity: 0;
+    scale: 0.95;
+  }
+}
+
+.ChatGptTelefonLodret {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.telefonLodret {
+  width: 200px;
+  height: 355px;
+}
+
+.billedeMund {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ChatGptMund {
+  width: 200px;
+  height: 115px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
