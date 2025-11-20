@@ -53,6 +53,7 @@
         </a>
       </div>
       <ul class="menu">
+        <button id="dark_btn" class="menuItem">Dark-mode</button>
         <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
         <li><a class="menuItem" href="register.html">Indberet</a></li>
       </ul>
@@ -200,7 +201,7 @@
         <img src="img/ChatGptTelefon.png" alt="ChatGptTelefon">
 
         <button popovertarget="popup1" class="cta_btn" href="">Læs mere</button>
-        <div popover class="popup1" id="popup1">
+        <div popover class="popup" id="popup1">
           <h3>Mødre er bekymret</h3>
 
           <div class="ChatGptTelefonLodret">
@@ -234,7 +235,7 @@
         <img src="img/ChatGptMund.png" alt="">
 
         <button popovertarget="popup2" class="cta_btn" href="">Læs mere</button>
-        <div popover id="popup2">
+        <div popover id="popup2" class="popup">
           <h3>Vampyrer på datingapps?!</h3>
 
           <div class="billedeMund">
@@ -281,8 +282,19 @@
             style="fill: #fff; stroke: #08280a; stroke-miterlimit: 10;" />
         </svg>
         <button popovertarget="popup3" class="cta_btn">Læs mere</button>
-        <div popover id="popup3">
-          <h3>Her er der mere2</h3>
+        <div popover id="popup3" class="popup">
+          <h3>Vin overalt!</h3>
+          <img src="img/vinBillede.svg" alt="vinBillede">
+          <p>Mange caféer døjer med folk der kaster med deres vin.
+            Mange café ejere tror ikke deres egne øjne, men det er skam rigtigt nok. Derfor er mange caféer stoppet
+            med at sælge vin på flaske.
+          </p>
+
+          <p>Vi har snakket med hr. Skæg, medejer af Minas på Nørrebrogade, "det er helt vanvittigt. Jeg taber så mange
+            penge på
+            vin. Jeg har det ikke skægt med det."
+          </p>
+
           <button popovertarget="popup3" class="close_btn">Luk</button>
         </div>
 
@@ -316,6 +328,7 @@
       </ul>
     </nav>
   </footer>
+  <script src="js/dark.js"></script>
   <script src="js/burger.js"></script>
   <script src="js/main.js"></script>
   <script src="js/dialog.js"></script>

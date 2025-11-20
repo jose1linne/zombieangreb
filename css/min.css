@@ -21,7 +21,7 @@
   transition: 0.5s;
 }
 
-.popup1 {
+.popup {
   box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8);
   border-color: #e3371e;
   border-radius: 7px 7px 7px 7px;
@@ -29,20 +29,19 @@
   padding: 2%;
   width: 600px;
 }
-
 [popover] {
-  opacity: 0.2;
-  scale: 1;
-  transition: 0.5s allow-discrete;
+  opacity: 0;
+  scale: 0.95;
+  transition: opacity 0.35s ease, scale 0.35s ease;
 }
 
 :popover-open {
   opacity: 1;
-  rotate: none;
+  scale: 1;
 
   @starting-style {
-    opacity: 0.2;
-    scale: 1;
+    opacity: 0;
+    scale: 0.95;
   }
 }
 
@@ -66,4 +65,32 @@
 .ChatGptMund {
   width: 200px;
   height: 115px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
 }

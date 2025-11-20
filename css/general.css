@@ -4,6 +4,55 @@ html {
   background-color: var(--color-bg);
 }
 
+html.dark {
+  /* Colours */
+  --color-bg: #171e28; /* page background /*
+
+  /* Header */
+  --color-head-bg: #e3371e;
+
+  /* Logotype */
+  --color-logotype-bg: #590202;
+  --color-text-logotype: #c1bfb8;
+
+  /* Global menu */
+  --color-menu-bg: #e3371e;
+
+  /* Links */
+  --color-link-bg: #e3371e;
+  --color-link-hover: #fffca6; /* used */
+  --color-link-active: #99958f; /* used */
+
+  /* Headlines og rubrik */
+
+  --font-h3-size: 1rem;
+  --color-headline-bg: #e3371e;
+  --color-headline-text-page: #42413d;
+
+  /* Tekst */
+  --color-text-inverted: #000;
+  --color-text: #cdccc4;
+
+  /* Cards */
+  --color-card-bg: #590202;
+  --color-cta-card-bg: #e3371e;
+  /* news-cards */
+  --color-news-bg: #590202;
+  --color-news-bg-inverted: #e3371e;
+  --color-cta-newscard-bg: #e3371e;
+  --color-cta-newscard-bg-inverted: #590202;
+
+  /* Infographics */
+  --color-info-bg: #590202;
+  --color-infobox-1-bg: #e3371e;
+  --color-infobox-2-bg: #e3371e;
+
+  .menuItem {
+    background-color: #590202;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
 header {
   height: min-content;
 }
